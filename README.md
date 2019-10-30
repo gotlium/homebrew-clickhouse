@@ -21,6 +21,6 @@ brew install clickhouse
 
 ## Build bottle
 ```bash
-brew install --build-bottle --cc=gcc-8 --devel clickhouse
+brew install --build-bottle --cc=gcc-9 --devel clickhouse
 brew bottle --json clickhouse
 ```
