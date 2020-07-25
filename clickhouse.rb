@@ -10,7 +10,7 @@ class Clickhouse < Formula
     url "https://github.com/yandex/ClickHouse.git", :tag => "v19.5.3.8-stable"
   end
 
-  depends_on "gcc@9"
+  depends_on "gcc"
   depends_on "cmake" => :build
   depends_on "ninja" => :build
   depends_on "libtool" => :build
